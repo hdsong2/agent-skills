@@ -1,7 +1,7 @@
 ---
 name: github-action-diagnose
 description: 诊断昇腾（Ascend）NPU 集群上 GitHub Actions 执行失败的原因，定位基础设施故障与根因分析
-allowed-tools: Bash(gh run view:*), Bash(gh run list:*), Bash(gh api:*), Bash(kubectl get:*), Bash(kubectl describe:*), Bash(kubectl logs:*), Bash(kubectl config:*), Read, Grep
+allowed-tools: Bash(gh run view:*), Bash(gh run list:*), Bash(gh pr view:*), Bash(gh api:*), Bash(kubectl get:*), Bash(kubectl describe:*), Bash(kubectl logs:*), Read, Grep
 ---
 
 ## Your task
